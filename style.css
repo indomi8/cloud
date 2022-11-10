@@ -1,0 +1,401 @@
+body,*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    margin-bottom: 20rem;
+}
+#sct-one{
+    margin-bottom: 20rem;  
+}
+#about{
+    margin-bottom: 20rem;
+  
+}
+#services{
+    margin-top: 500px;
+        position: relative;
+}
+#work{
+    margin: 20rem 0 5rem 0;
+
+}
+hr{
+   
+    width: 40%;
+    border:1px solid;
+    margin: 1rem auto;
+}
+#clients{
+    margin: 5rem auto 20rem auto;
+}
+#contact{
+    margin-bottom: 10rem ;
+}
+#footer{
+    color: #14415E;
+}
+
+
+/*.....................................................................*/  
+
+
+.sky{
+    height: 60%;
+    width: 100%;
+    background-image: url('./sky.png');
+    border-radius: 72px;
+
+
+}
+.navbar-brand{
+    margin-left: 5rem;
+}
+.navbar{
+    background-color: white;
+    font-size: .9rem;
+}
+
+ .navDiv{
+   text-align: right;
+    justify-content: right;
+} 
+.nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.elps-div{
+position: relative;
+text-align: center;
+}
+.elps-txt{
+    font-weight: bold;
+    color: #228ACD;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.row1{
+    margin-top: 10rem;
+}
+.rw1-div{
+    padding-top: 3rem;
+}
+.rw1-h1{
+    color: #14415E;
+    margin-left: 5px;
+}
+.row1 p{
+    color: #14415E;
+    width: 350px;
+    margin: 0 auto 16px auto;
+}
+.moreBtn{
+    color: #14415E;
+    border-color: #14415E;
+    width: 198px;
+    margin: 1rem 1rem 0 6.9rem;
+}
+.moreBtn:hover{
+    background-color: #14415E;
+}
+.rw1-img{
+    margin-left: 20rem;
+}
+.btn-div{
+    height: 140px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.scrollBtn{
+    
+    background-color: #14415E;
+    color: white;
+  margin-top: 8rem;
+  width: 70px;
+  border-radius: 15px;
+}
+
+
+/*...................................................*/
+
+.rw2-icondiv
+{   position: relative;
+    text-align: center;
+}
+.rw2-iconitem{
+    position:absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.empty{
+    height: 162px;
+    width: 222px;
+}
+
+.image{
+    height: 170px;
+    width: 230px;
+}
+.row2-h1{
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+.row2-p{
+    text-align: center;
+}
+
+
+/*...................................................*/
+
+
+
+
+
+
+.first{
+    background-color: #D6EFFF;
+    height: 450px;
+    position:relative;
+}
+.first-indiv{
+ 
+    background-color:rgba(255, 255, 255, 0.61);
+    border-bottom-right-radius: 72px;
+    border-top-right-radius: 72px;
+    height: 200px;
+    padding: 2px;
+    position:absolute;
+    top:100px;
+    right: 100px;
+}
+.woman{
+
+    height: 515px;
+width: 800px;
+margin-top: -19.9rem;
+margin-left: -4.2rem;
+}
+.row3-h1{
+    margin-top: 2rem;
+    margin-right: 5rem;
+}
+.row3-p{
+  
+    margin-right: 5rem;
+    
+}
+/* second */
+.second{
+
+    background-color: #F9F9F9;
+    height: 400px;
+}
+.rw3{
+    padding: 0 6rem;
+    margin-top: -5rem;
+    
+}
+
+
+
+/* ................................................................... */
+
+
+
+.srvc-div{
+    background-color: #14415E;
+    text-align: center;
+    padding: .5rem;
+    height: fit-content ;
+}
+.srvc-div h1{
+    color: #fff;
+}
+
+.row4{
+    width: 90% !important;
+    margin: 0 auto !important;
+    justify-content: space-around;
+}
+.crd4{
+    margin-top: .5rem;
+}
+.crd4-img{
+    height: 150px;
+}
+
+.moreBtn2{
+    color: #fff;
+    border-color: #fff;
+    width: 198px;
+    margin-top: 5rem ;
+   
+}
+.moreBtn2:hover{
+    color: #fff;
+    border-color: #fff;
+}
+
+
+/* ..................................................................................*/
+
+.row5-h1{
+    color: #14415E;
+}
+.crsldiv{
+    margin: 5rem auto;
+}
+.crsl{
+    width: 700px;
+    height: 500px;
+}
+.row5-btn{
+    color: #14415E;
+    border-color: #14415E;
+    width: 200px;
+}
+
+
+
+/*..........................................................*/
+.row6-h1{
+    color: #14415E;
+}
+.row6{
+    margin-top: 5rem;
+}
+.logo{
+    margin-right: 2rem;
+    margin-top: .5rem;
+    
+}
+
+
+
+/*.................................................................................*/
+.row7{
+    background-color: #D6EFFF;
+    padding: 2rem;
+}
+.row7-h1{
+    margin-left: 10rem;
+    color: #14415E;
+}
+form {
+    overflow: hidden;
+  }
+input{
+    direction: rtl;    
+    padding: 5px 17px 5px 5px;
+    margin: 10px 0;
+    float: right;
+    background-color: transparent;
+    border: 1px solid #858585;
+   border-radius: 12px;
+}
+.Name{
+    width: 230px;
+}
+.Email{
+    width: 230px;
+    margin-right: 40px;
+}
+.sbj{
+    width: 500px;
+}
+.msg{
+    width: 500px;
+    direction: rtl;    
+    padding: 5px 17px 5px 5px;
+    margin: 10px 0;
+    float: right;
+    background-color: transparent;
+    border: 1px solid #858585;
+   border-radius: 12px;
+}
+.sbmt{
+    display: block;
+   width: 150px;
+   background-color: #14415E;
+   color: white;
+   text-align: center;
+   padding-left: 20px;
+}
+
+
+/*............................................................*/
+
+
+.row8{
+    padding-top: 25px;
+}
+.img8p{
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1000px){
+    .rw1-img{
+        margin-left: auto;
+    }
+    .moreBtn{
+       
+        width: 140px;
+        margin: 1rem 1rem 0 auto;
+    }
+}
+@media (max-width:900px){
+   .woman{display: none;}
+   .row3-p{
+       text-align: right;
+       width: 300px;
+       margin-left: 6rem;
+   }
+   .crsl{
+    width: 500px;
+    height: 300px;
+}
+
+
+}
+@media ( max-width:500px ){
+    .Email{
+        margin-right: 0;
+    }
+    input{
+        display: block;
+    }
+    .sbj{
+        width: 250px;
+    }
+    .msg{
+        width: 250px;
+        direction: rtl;    
+        padding: 5px 17px 5px 5px;
+        margin: 10px 0;
+        float: right;
+        background-color: transparent;
+        border: 1px solid #858585;
+       border-radius: 12px;
+    }
+    .sbmt{
+        margin-right: 1rem;
+      
+    }
+}
