@@ -200,7 +200,21 @@ margin-left: -4.2rem;
 .rw3{
     padding: 0 6rem;
     margin-top: -5rem;
-    color: #14415E;
+    color: #14415E;}
+.pos{
+    position: relative;
+}
+.about-crd1{
+    margin-left: -10rem;
+    margin-top: -2rem;
+}
+.about-crd2{
+    margin-left: -6rem;
+    margin-top: -11rem;
+}
+.about-crd3{
+    margin-left: -2rem;
+    margin-top: -3rem;
 }
 .crd3{
    
