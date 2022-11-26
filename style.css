@@ -1,6 +1,7 @@
-body,*{
-    margin: 0;
-    padding: 0;
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
 }
 #header{
     margin-bottom: 20rem;
@@ -9,6 +10,7 @@ body,*{
     margin-bottom: 20rem;  
 }
 #about{
+    
     margin-bottom: 20rem;
     position: relative;
     height: fit-content;
@@ -47,6 +49,7 @@ hr{
     height: 60%;
     width: 100%;
     background-image: url('./images/header-bckg.svg');
+    background-size: cover;
     border-radius: 72px;
 
 
@@ -157,7 +160,7 @@ text-align: center;
 .first{
     background-image: url("./images/about-bckg.svg") ;
   
-    /* background-size: cover; */
+   
     height: 450px;
     position:relative;
     
@@ -193,37 +196,45 @@ margin-left: -4.2rem;
 }
 /* second */
 .second{
-
+    text-align: center;
+    padding: 1rem;
+    height: fit-content;
     background-color: #F9F9F9;
-    height: 400px;
+    position:relative;
 }
 .rw3{
-    padding: 0 6rem;
-    margin-top: -5rem;
-    color: #14415E;}
-.pos{
+
+    margin-top: -7rem;
+   
+
+   
+    }
+.pos
+{
+        width: 500px;
+        height: 370px;
+       
+    }
+.pos1{
+    margin-top: -4rem;
+}
+.crd-content{
     position: relative;
 }
-.about-crd1{
-    margin-left: -10rem;
-    margin-top: -2rem;
+.abt-crd-content{
+    margin: 136px 0;
+    position: absolute;
+    width: 17rem;
+    color: #14415E;
 }
-.about-crd2{
-    margin-left: -6rem;
-    margin-top: -11rem;
-}
-.about-crd3{
-    margin-left: -2rem;
-    margin-top: -3rem;
-}
-.crd3{
+/* .crd3{
    
    
     margin-left: 9px;
     width: 20rem !important;
   /* height: 10rem !important; */
    
-}
+
 
 /* .crd4h5{
     margin-top: -3rem;
@@ -328,7 +339,8 @@ margin-left: -4.2rem;
 
 /*....................................................................*/
 .row7{
-    background-image: url("./images/about-bckg.svg");
+    background-image: url("./images/contact-bckg.svg");
+    background-size: cover;
     padding: 2rem;
     height: fit-content;
 }
@@ -432,8 +444,7 @@ input{
 }
 .Email{
     margin-right: 0;
-}
-
+}  
 }
 @media ( max-width:500px ){
     .Email{
@@ -455,8 +466,4 @@ input{
         border: 1px solid #858585;
        border-radius: 12px;
     }
-    /* .sbmt{
-        margin-right: 1rem;
-      
-    } */
 }
